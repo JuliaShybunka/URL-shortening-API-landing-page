@@ -1,4 +1,5 @@
 @import "~@csstools/normalize.css";
+
 *,
 ::before,
 ::after {
@@ -47,12 +48,83 @@ button {
   border-radius: 20px;
 }
 
-.header__login:hover,
-.header__signup:hover {
+.header__signup {
   background-color: #49dada;
   color: #fff;
   font-weight: 700;
+}
+
+.header__signup:hover,
+.header__signup:active {
+  background-color: #96e5e2;
   padding: 10px 24px;
   border-radius: 20px;
-  transition: 0.5s;
+  transition: 2s;
+}
+
+.header__signup {
+  position: relative;
+}
+
+.signUp__form {
+  position: absolute;
+  max-width: 208px;
+  padding: 5px;
+  text-align: center;
+  background-color: #fff;
+  border-radius: 20px;
+  font-size: 18px;
+  top: 106px;
+  -webkit-box-shadow: -1px 6px 54px 3px rgba(75, 64, 107, 0.51);
+  -moz-box-shadow: -1px 6px 54px 3px rgba(75, 64, 107, 0.51);
+  box-shadow: -1px 6px 54px 3px rgba(75, 64, 107, 0.51);
+}
+
+.signUp__form span {
+  color: #4b406b;
+  font-weight: 700;
+}
+
+.signUp__form input {
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 3px;
+}
+
+.signUp__form__password__inner {
+  position: relative;
+}
+
+.signUp__form__password-btn {
+  position: absolute;
+  bottom: 4px;
+  right: 5px;
+  background-color: transparent;
+  border: none;
+  color: #232027;
+  outline: none;
+  cursor: pointer;
+}
+.signUp__form__login-btn {
+  background-color: #4b406b;
+  width: 193px;
+  padding: 5px;
+  margin-top: 10px;
+  border: none;
+  color: #fff;
+  border-radius: 3px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.signUp__form__forgot-btn {
+  margin: 10px 0;
+  border-radius: 3px;
+  padding: 5px;
+  width: 100%;
+  background-color: #ecf0f1;
+  color: #99aed0;
+  cursor: pointer;
+  outline: none;
+  border: none;
 }

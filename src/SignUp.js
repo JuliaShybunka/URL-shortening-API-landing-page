@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { FaEye, FaEyeSlash } from "react-icons/fa";
 
 const SignUp = () => {
   const [userName, setUserName] = useState("");
@@ -10,32 +11,40 @@ const SignUp = () => {
     console.log(userName + ", " + password);
   };
   return (
-    <div>
+    <div className="signUp__form">
       <form onSubmit={handleSubmit}>
-        Member Login
+        <span> Member Login</span>
         <input
           type="text"
           name="userName"
+          placeholder="Username"
           onChange={event => setUserName(event.target.value)}
           required
         />
-        {userName}
-        <input
-          type={togglePassword ? "password" : "text"}
-          name="password"
-          onChange={event => setPassword(event.target.value)}
-          required
-        />
-        <button
-          type="button"
-          onClick={() => setTogglePassword(!togglePassword)}
-        >
-          Hide/Show
+        <div className="signUp__form__password__inner">
+          <input
+            className="signUp__form__password"
+            type={togglePassword ? "password" : "text"}
+            name="password"
+            placeholder="Password"
+            onChange={event => setPassword(event.target.value)}
+            required
+          />
+          <button
+            className="signUp__form__password-btn"
+            type="button"
+            onClick={() => setTogglePassword(!togglePassword)}
+          >
+            {togglePassword ? <FaEyeSlash /> : <FaEye />}
+          </button>
+        </div>
+        <button className="signUp__form__login-btn" type="submit">
+          Login
         </button>
-        {password}
-        <button type="submit">Login</button>
       </form>
-      <button>Forgot Password?</button>
+      <button className="signUp__form__forgot-btn" type="button">
+        Forgot Password?
+      </button>
     </div>
   );
 };

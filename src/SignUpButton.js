@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import SignUp from "./SignUp";
 
 const SignUpButton = () => {
-  const [togglePopUp, setTogglePopUp] = useState(false);
+  const [togglePopUp, setTogglePopUp] = useState(true);
   return (
     <>
       <button
