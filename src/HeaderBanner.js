@@ -1,5 +1,4 @@
 import React from "react";
-import BannerImage from "./images/illustration-working.svg";
 
 const HeaderBanner = () => {
   return (
@@ -12,9 +11,6 @@ const HeaderBanner = () => {
             links are performing.
           </div>
           <button className="banner__info-btn">Get Started</button>
-        </div>
-        <div className="banner__image">
-          <img src={BannerImage} alt="Banner image" />
         </div>
       </div>
     </div>

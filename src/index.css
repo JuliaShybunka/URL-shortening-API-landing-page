@@ -38,7 +38,8 @@ button {
 }
 
 .header__login,
-.header__signup {
+.header__signup,
+.banner__info-btn {
   background-color: #fff;
   border: none;
   cursor: pointer;
@@ -48,14 +49,17 @@ button {
   border-radius: 20px;
 }
 
-.header__signup {
+.header__signup,
+.banner__info-btn {
   background-color: #49dada;
   color: #fff;
   font-weight: 700;
 }
 
 .header__signup:hover,
-.header__signup:active {
+.header__signup:active,
+.banner__info-btn:hover,
+.banner__info-btn:active {
   background-color: #96e5e2;
   padding: 10px 24px;
   border-radius: 20px;
@@ -127,4 +131,35 @@ button {
   cursor: pointer;
   outline: none;
   border: none;
+}
+.banner {
+  margin-top: 75px;
+  background-image: url(./images/illustration-working.svg);
+  min-height: 482px;
+  background-repeat: no-repeat;
+  background-position: right center;
+}
+
+.banner__info {
+  max-width: 470px;
+  padding-top: 80px;
+}
+
+.banner__info-title {
+  color: #141316;
+  font-weight: 700;
+  font-size: 60px;
+}
+
+.banner__info-text {
+  font-size: 22px;
+  color: #bfbfbf;
+  margin-bottom: 30px;
+}
+
+.banner__info-btn,
+.banner__info-btn:hover,
+.banner__info-btn:active {
+  padding: 20px 40px;
+  border-radius: 30px;
 }
