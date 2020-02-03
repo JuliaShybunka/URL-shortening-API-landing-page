@@ -1,5 +1,6 @@
 import React from "react";
 import logo from "./images/logo.svg";
+import SignUpButton from "./SignUpButton";
 
 const Header = () => {
   return (
@@ -15,7 +16,8 @@ const Header = () => {
         </nav>
         <div className="header__registration">
           <button className="header__login">Login</button>
-          <button className="header__signup">Sign Up</button>
+
+          <SignUpButton />
         </div>
       </div>
     </div>
