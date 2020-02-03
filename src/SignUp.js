@@ -10,6 +10,7 @@ const SignUp = () => {
     event.preventDefault();
     console.log(userName + ", " + password);
   };
+
   return (
     <div className="signUp__form">
       <form onSubmit={handleSubmit}>

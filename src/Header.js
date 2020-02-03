@@ -16,7 +16,6 @@ const Header = () => {
         </nav>
         <div className="header__registration">
           <button className="header__login">Login</button>
-
           <SignUpButton />
         </div>
       </div>
