@@ -5,6 +5,7 @@ const SignUpButton = () => {
   const [togglePopUp, setTogglePopUp] = useState(false);
   return (
     <>
+      <button className="header__login">Login</button>
       <button
         className="header__signup"
         onClick={() => setTogglePopUp(!togglePopUp)}

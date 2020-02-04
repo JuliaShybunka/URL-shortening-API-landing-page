@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { FaEye, FaEyeSlash } from "react-icons/fa";
 
-const SignUp = () => {
+const SignUp = props => {
   const [userName, setUserName] = useState("");
   const [password, setPassword] = useState("");
   const [togglePassword, setTogglePassword] = useState(false);

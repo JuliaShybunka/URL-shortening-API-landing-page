@@ -15,7 +15,7 @@ const Header = () => {
           <a href="/">Resources</a>
         </nav>
         <div className="header__registration">
-          <button className="header__login">Login</button>
+          
           <SignUpButton />
         </div>
       </div>
