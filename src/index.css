@@ -136,7 +136,7 @@ button {
 
 .banner {
   margin: 75px 0 166px;
-  background-image: url(./images/illustration-working.svg);
+  background-image: url(../src/components/images/illustration-working.svg);
   min-height: 482px;
   background-repeat: no-repeat;
   background-position: right center;
@@ -171,7 +171,7 @@ button {
 }
 
 .shorten-link__form {
-  background-image: url(./images/bg-shorten-desktop.svg);
+  background-image: url(./components/images/bg-shorten-desktop.svg);
   min-height: 168px;
   width: 1110px;
   background-repeat: no-repeat;
@@ -204,4 +204,27 @@ button {
   outline: none;
   cursor: pointer;
   font-size: 16px;
+}
+
+.about {
+  background-color: #f0f1f6;
+}
+
+.about__top {
+  padding-top: 50px;
+  text-align: center;
+
+}
+
+
+.about__top-title {
+  color: #33303b;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.about__top-text {
+  font-size: 18px;
+  color: #bfbfbf;
+  padding: 20px 0;
 }
