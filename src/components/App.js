@@ -1,7 +1,8 @@
 import React from "react";
 import Header from "./header/Header";
 import HeaderBanner from "./header/HeaderBanner";
-import ShortenLink from "./ShortenLink";
+import ShortenLink from "./shortenLink/ShortenLink";
+import About from "./about/About";
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <Header />
       <HeaderBanner />
       <ShortenLink />
+      <About />
     </>
   );
 }

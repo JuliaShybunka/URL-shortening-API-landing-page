@@ -22,8 +22,7 @@ const ShortenLink = () => {
               <button type="submit" className="shorten-link__form-link-btn">
                 Shorten it!
               </button>
-
-              <p></p>
+              <p>{shortenLink}</p>
             </div>
           </form>
         </div>
