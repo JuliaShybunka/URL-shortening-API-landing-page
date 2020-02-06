@@ -1,6 +1,6 @@
 import React from "react";
-import Header from "./Header";
-import HeaderBanner from "./HeaderBanner";
+import Header from "./header/Header";
+import HeaderBanner from "./header/HeaderBanner";
 import ShortenLink from "./ShortenLink";
 
 function App() {

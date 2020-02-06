@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "./images/logo.svg";
+import logo from "../images/logo.svg";
 import SignUpButton from "./SignUpButton";
 
 const Header = () => {
@@ -15,6 +15,7 @@ const Header = () => {
           <a href="/">Resources</a>
         </nav>
         <div className="header__registration">
+          <button className="header__login">Login</button>
           <SignUpButton />
         </div>
       </div>

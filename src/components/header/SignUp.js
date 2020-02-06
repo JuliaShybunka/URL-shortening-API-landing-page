@@ -18,6 +18,7 @@ const SignUp = props => {
         <input
           type="text"
           name="userName"
+          value={userName}
           placeholder="Username"
           onChange={event => setUserName(event.target.value)}
           required
