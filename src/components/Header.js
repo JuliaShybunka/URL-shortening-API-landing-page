@@ -15,7 +15,6 @@ const Header = () => {
           <a href="/">Resources</a>
         </nav>
         <div className="header__registration">
-          
           <SignUpButton />
         </div>
       </div>
