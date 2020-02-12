@@ -3,6 +3,7 @@ import Header from "./header/Header";
 import HeaderBanner from "./header/HeaderBanner";
 import ShortenLink from "./shortenLink/ShortenLink";
 import About from "./about/About";
+import Booster from "./footer/Booster";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <HeaderBanner />
       <ShortenLink />
       <About />
+      <Booster />
     </>
   );
 }
