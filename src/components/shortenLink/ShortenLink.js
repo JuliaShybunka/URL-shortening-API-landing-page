@@ -38,15 +38,12 @@ class ShortenLink extends React.Component {
               </div>
             </form>
           </div>
-          <div className="shorten-link__list">
-            <p>
-              <ul>
-                {li.map(e => (
-                  <li>{e}</li>
-                ))}
-              </ul>
-            </p>
-          </div>
+
+          <ul className="shorten-link__list">
+            {li.map(e => (
+              <li className="shorten-link__list-item">{e}</li>
+            ))}
+          </ul>
         </div>
       </div>
     );
