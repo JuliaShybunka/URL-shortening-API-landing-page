@@ -52,7 +52,8 @@ button {
 }
 
 .header__signup,
-.banner__info-btn {
+.banner__info-btn,
+.booster__btn {
   background-color: #49dada;
   color: #fff;
   font-weight: 700;
@@ -61,7 +62,9 @@ button {
 .header__signup:hover,
 .header__signup:active,
 .banner__info-btn:hover,
-.banner__info-btn:active {
+.banner__info-btn:active,
+.booster__btn:hover,
+.booster__btn:active {
   background-color: #96e5e2;
   padding: 10px 24px;
   border-radius: 20px;
@@ -163,7 +166,10 @@ button {
 
 .banner__info-btn,
 .banner__info-btn:hover,
-.banner__info-btn:active {
+.banner__info-btn:active,
+.booster__btn,
+.booster__btn:hover,
+.booster__btn:active {
   padding: 20px 40px;
   border-radius: 30px;
 }
@@ -211,6 +217,7 @@ button {
 
 .about {
   background-color: #f0f1f6;
+  padding-bottom: 120px;
 }
 
 .about__bottom {
@@ -337,4 +344,30 @@ button {
 
 .about__box-3 {
   margin-top: 173px;
+}
+
+.booster {
+  background-color: #3B3054;
+
+}
+
+.booster__inner {
+  background-image: url(../src/components/images/bg-boost-desktop.svg);
+  min-height: 250px;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+.booster__name {
+  color: #fff;
+  padding-top: 70px;
+  font-weight: 700px;
+  font-size: 40px;
+}
+
+.booster__btn {
+  margin-top: 30px;
+  outline: none;
+  cursor: pointer;
+  border: none;
 }
