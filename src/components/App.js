@@ -4,6 +4,7 @@ import HeaderBanner from "./header/HeaderBanner";
 import ShortenLink from "./shortenLink/ShortenLink";
 import About from "./about/About";
 import Booster from "./footer/Booster";
+import Footer from "./footer/Footer";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <ShortenLink />
       <About />
       <Booster />
+      <Footer />
     </>
   );
 }

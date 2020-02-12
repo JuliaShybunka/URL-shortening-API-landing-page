@@ -371,3 +371,13 @@ button {
   cursor: pointer;
   border: none;
 }
+
+footer {
+  background-color: #232127;
+}
+
+.footer__logo svg {
+  width: 121px;
+  height: 33px;
+  fill: #fff;
+}
