@@ -13,7 +13,7 @@ const About = () => {
             </div>
           </div>
           <div className="about__bottom">
-            <div className="about__box">
+            <div className="about__box about__box-1">
               <div className="about__box-title">Brand Recongnition</div>
               <div className="about__box-text">
                 Boost your brand recognition with eath click. Generic links
@@ -21,7 +21,7 @@ const About = () => {
                 content.
               </div>
             </div>
-            <div className="about__box">
+            <div className="about__box about__box-2">
               <div className="about__box-title">Detailed Records</div>
               <div className="about__box-text">
                 Gain insights into who is clicking your links. Knowing when and
@@ -29,7 +29,7 @@ const About = () => {
                 decisions.
               </div>
             </div>
-            <div className="about__box">
+            <div className="about__box about__box-3">
               <div className="about__box-title">Fully Customizable</div>
               <div className="about__box-text">
                 Improve brand awareness and content discoverability throuth
