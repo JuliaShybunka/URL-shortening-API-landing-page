@@ -1,12 +1,16 @@
 import React from "react";
-import Logo from "../images/logo.svg";
+import logo from "../images/logo-footer.svg";
+import facebookIcon from "../images/icon-facebook.svg";
+import twitterIcon from "../images/icon-twitter.svg";
+import instagramIcon from "../images/icon-instagram.svg";
+import pinterestIcon from "../images/icon-pinterest.svg";
 
 const Footer = () => {
   return (
     <footer>
       <div className="container footer__inner">
         <div className="footer__logo">
-          <svg src={Logo} alt="logo"></svg>
+          <img src={logo} alt="logo"></img>
         </div>
         <div className="footer__items">
           <div className="footer__item">
@@ -14,9 +18,15 @@ const Footer = () => {
               <li>
                 <span>Features</span>
               </li>
-              <li>Link Shortening</li>
-              <li>Branded Links</li>
-              <li>Analytics</li>
+              <li>
+                <a href="/">Link Shortening</a>
+              </li>
+              <li>
+                <a href="/">Branded Links</a>
+              </li>
+              <li>
+                <a href="/">Analytics</a>
+              </li>
             </ul>
           </div>
           <div className="footer__item">
@@ -24,9 +34,15 @@ const Footer = () => {
               <li>
                 <span>Resources</span>
               </li>
-              <li>Blog</li>
-              <li>Developers</li>
-              <li>Support</li>
+              <li>
+                <a href="/">Blog</a>
+              </li>
+              <li>
+                <a href="/">Developers</a>
+              </li>
+              <li>
+                <a href="/">Support</a>
+              </li>
             </ul>
           </div>
           <div className="footer__item">
@@ -34,18 +50,34 @@ const Footer = () => {
               <li>
                 <span>Company</span>
               </li>
-              <li>About</li>
-              <li>Our Team</li>
-              <li>Careers</li>
-              <li>Contect</li>
+              <li>
+                <a href="/">About</a>
+              </li>
+              <li>
+                <a href="/">Our Team</a>
+              </li>
+              <li>
+                <a href="/">Careers</a>
+              </li>
+              <li>
+                <a href="/">Contect</a>
+              </li>
             </ul>
           </div>
         </div>
         <div className="footer__icons">
-          <div className="footer__icon"></div>
-          <div className="footer__icon"></div>
-          <div className="footer__icon"></div>
-          <div className="footer__icon"></div>
+          <a href="/">
+            <img src={facebookIcon} className="footer__icon"></img>
+          </a>
+          <a href="/">
+            <img src={twitterIcon} className="footer__icon"></img>
+          </a>
+          <a href="/">
+            <img src={pinterestIcon} className="footer__icon"></img>
+          </a>
+          <a href="/">
+            <img src={instagramIcon} className="footer__icon"></img>
+          </a>
         </div>
       </div>
     </footer>

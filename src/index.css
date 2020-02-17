@@ -374,10 +374,46 @@ button {
 
 footer {
   background-color: #232127;
+  padding: 64px 0 70px;
+}
+
+.footer__inner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__items {
+  display: flex;
+  justify-content: space-between;
+  min-width: 470px;
+}
+
+.footer__item ul li a,
+.footer__item ul li {
+  list-style-type: none;
+  color: #BFBFBF;
+  font-size: 16px;
+  margin-bottom: 15px;
+  text-decoration: none;
+}
+
+.footer__item ul li a:hover {
+  color: #2ACFCF;
+}
+
+.footer__item ul li:first-child {
+  margin-bottom: 30px;
+}
+
+.footer__item ul li span {
+  color: #fff;
+
 }
 
 .footer__logo svg {
-  width: 121px;
-  height: 33px;
-  fill: #fff;
+  max-width: 121px;
+}
+
+.footer__icons a {
+  margin-left: 23px;
 }
